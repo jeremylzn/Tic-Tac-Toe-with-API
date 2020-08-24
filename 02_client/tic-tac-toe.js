@@ -63,7 +63,7 @@ $(document).ready(function() {
         $('.square h2').empty();
         $('.outcome h2').empty();
         $('#X').css({ 'background-color': 'goldenrod' });
-        $('#O').css({ 'background-color': 'white' });
+        $('#O').css({ 'background-color': 'beige' });
         return 'new game';
     }
 
@@ -98,7 +98,7 @@ $(document).ready(function() {
     }
 
     function playerO(event) {
-        $('#X').css({ 'background-color': 'white' });
+        $('#X').css({ 'background-color': 'beige' });
         $('#O').css({ 'background-color': 'goldenrod' });
         computerMove();
     }
